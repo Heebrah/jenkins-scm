@@ -53,7 +53,7 @@ After setup, every code change (e.g., README edits) pushed to the GitHub reposit
 
 ![caption](/img/10.add-git.jpg)
 
-5. scroll down to see **Branch Specifier** and choose main because we are on main branch
+5. scroll down to see **Branch Specifier** and choose main because we are on main branch. main branch is the default branch so that's what we are going to write there. If it's another branch that we referencing that's what we will write.
 ```
 */main
 ```
@@ -123,8 +123,7 @@ ngrok http --domain=jenkins-ibrahim.ngrok.io 8080
 ```
 ![caption](/img/26.ngrok-webpage.jpg)
 
-11. using free version we can run ngrok with the command
-
+11. using free version we can run ngrok with the command but this will keep changing as we reload. 
 ```
 ngrok http 8080
 ```
@@ -132,7 +131,8 @@ like we know jenkins runs on port 8080 of our local network.
 ![caption](/img/25.run-grok-on-8080.jpg)
 
 12. we can get our public ip address equivalent to localhost:8080 as something like https://.....ngrok.free.app.
-N.B this changes as we reload so we will need to be changing the jenkins ip address
+N.B this changes as we reload so we will need to be changing the jenkins ip address.
+We can use ec2 instance and install jenkins inside this will make us use the public ip address of the instance.
 
 ![caption](/img/23.ngrok-http-8080.jpg)
 
@@ -161,15 +161,22 @@ and select **just the push event**
 19. Now i can go into my README.md file to make changes into it and go to the webhook to see if it push it into my jenkins. if it's successful it will mark a green stripe
 ![caption](/img/14.successful-github-update.jpg)
 
-20. to see this on my jenkins 
-![caption](/img/31.going-to-build.jpg)
-then click the latest build
+20. This shows that the changes is building up
+![caption](/img/32.building.jpg)
+![caption](/img/33.build-done.jpg)
 
-21. click details
+
+21. click details of the 
 ![caption](/img/15.update-success.jpg)
 
 22. i can see the commit message i used to update my README.md
 ![caption](/img/16.updated-changes-jenkins.jpg)
+
+23. console log i can see the logs there
+![caption](/img/35.console.jpg)
+
+24. Check the polling log
+![caption](/img/34.logs.jpg)
 
 Finished. Thank You.
 
