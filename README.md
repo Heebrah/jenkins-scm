@@ -132,7 +132,7 @@ like we know jenkins runs on port 8080 of our local network.
 
 12. we can get our public ip address equivalent to localhost:8080 as something like https://.....ngrok.free.app.
 N.B this changes as we reload so we will need to be changing the jenkins ip address.
-We can use ec2 instance and install jenkins inside this will make us use the public ip address of the instance.
+
 
 ![caption](/img/23.ngrok-http-8080.jpg)
 
@@ -163,7 +163,7 @@ and select **just the push event**
 
 20. This shows that the changes is building up
 ![caption](/img/32.building.jpg)
-![caption](/img/33.build-done.jpg)
+
 
 
 21. click details of the 
@@ -175,10 +175,8 @@ and select **just the push event**
 23. console log i can see the logs there
 ![caption](/img/35.console.jpg)
 
-24. Check the polling log
-![caption](/img/34.logs.jpg)
 
-Finished. Thank You.
+Thank you.
 
 
 
