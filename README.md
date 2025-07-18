@@ -93,12 +93,12 @@ ngrok config add-authtoken $Your_Authotoken
 10. If the register for a paid version of ngrok then you can follow this step below
 **Reserve a Static Domain**
 
-1. Go to:
+-  Go to:
    👉 [https://dashboard.ngrok.com/cloud-edge/domains](https://dashboard.ngrok.com/cloud-edge/domains)
 
-2. Click **“Reserve a Domain”**
+- Click **“Reserve a Domain”**
 
-3. In the **subdomain field**, type something unique like:
+- In the **subdomain field**, type something unique like:
 
    ```
    jenkins-ibrahim
@@ -110,7 +110,7 @@ ngrok config add-authtoken $Your_Authotoken
    jenkins-ibrahim.ngrok.io
    ```
 
-4. Click **Reserve**
+- Click **Reserve**
 
 ---
 
@@ -155,6 +155,8 @@ N.B this changes as we reload so we will need to be changing the jenkins ip addr
 content type should be **json**
 and select **just the push event**
 ![caption](/img/30.added-webhook.jpg)
+
+### Test and output
 
 19. Now i can go into my README.md file to make changes into it and go to the webhook to see if it push it into my jenkins. if it's successful it will mark a green stripe
 ![caption](/img/14.successful-github-update.jpg)
