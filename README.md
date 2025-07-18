@@ -171,7 +171,7 @@ then click the latest build
 22. i can see the commit message i used to update my README.md
 ![caption](/img/16.updated-changes-jenkins.jpg)
 
-Finished. Thank You.
+Finished. Thank you for the time.
 
 
 
