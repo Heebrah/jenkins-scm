@@ -176,7 +176,7 @@ and select **just the push event**
 ![caption](/img/35.console.jpg)
 
 
-Thank you.
+Thanks for reading through
 
 
 
